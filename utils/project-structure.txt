@@ -1,0 +1,82 @@
+healthcare-backend/
+├── config/
+│   ├── db.js
+│   ├── auth.js
+│   ├── env.js
+│   └── permissions.js
+├── controllers/
+│   ├── adminController.js
+│   ├── authController.js
+│   ├── doctorController.js
+│   ├── patientController.js
+│   ├── pharmacyController.js
+│   ├── laboratoryController.js
+│   └── telemedicineController.js
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── roleMiddleware.js
+│   ├── errorHandler.js
+│   ├── validation.js
+│   └── rateLimiter.js
+├── models/
+│   ├── User.js
+│   ├── Provider.js
+│   ├── Appointment.js
+│   ├── HealthRecord.js
+│   ├── Prescription.js
+│   ├── LabTest.js
+│   ├── ImagingStudy.js
+│   ├── VaccinationRecord.js
+│   └── MentalHealthAssessment.js
+├── services/
+│   ├── authService.js
+│   ├── patientService.js
+│   ├── doctorService.js
+│   ├── appointmentService.js
+│   ├── pharmacyService.js
+│   ├── laboratoryService.js
+│   ├── imagingService.js
+│   ├── emergencyService.js
+│   ├── telemedicineService.js
+│   ├── insuranceService.js
+│   ├── billingService.js
+│   ├── analyticsService.js
+│   ├── reportService.js
+│   ├── notificationService.js
+│   ├── queueService.js
+│   ├── cacheService.js
+│   └── searchService.js
+├── routes/
+│   ├── adminRoutes.js
+│   ├── authRoutes.js
+│   ├── doctorRoutes.js
+│   ├── patientRoutes.js
+│   ├── pharmacyRoutes.js
+│   └── laboratoryRoutes.js
+├── utils/
+│   ├── encryption.js
+│   ├── logger.js
+│   ├── validator.js
+│   ├── responseHandler.js
+│   └── dateHelper.js
+├── validations/
+│   ├── adminValidation.js
+│   ├── doctorValidation.js
+│   ├── patientValidation.js
+│   └── pharmacyValidation.js
+├── jobs/
+│   ├── appointmentReminder.js
+│   ├── reportGenerator.js
+│   └── dataBackup.js
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+├── docs/
+│   ├── api.md
+│   └── setup.md
+├── .env
+├── .gitignore
+├── app.js
+├── server.js
+└── package.json
